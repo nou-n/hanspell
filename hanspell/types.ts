@@ -1,0 +1,1 @@
+export type SpellerResult = { success: Boolean, origin: string, text: string, errors: Object[], count: number };
