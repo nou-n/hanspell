@@ -20,22 +20,22 @@ import { incruit } from "./hanspell";
 
 ```typescript
 {
-    success: true,
-    origin: "푸르른 하늘 아레, 구름이 춤추듣 흘러간다.",
-    text: "푸른 하늘 아래, 구름이 춤추듯 흘러간다.",
-    errors: [
-      {
-        origin: "푸르른",
-        text: [ "푸른", "푸릇한" ],
-      }, {
-        origin: "아레",
-        text: [ "아래" ],
-      }, {
-        origin: "춤추듣",
-        text: [ "춤추듯" ],
-      }
-    ],
-    count: 3,
+  success: true,
+  origin: "푸르른 하늘 아레, 구름이 춤추듣 흘러간다.",
+  text: "푸른 하늘 아래, 구름이 춤추듯 흘러간다.",
+  errors: [
+    {
+      origin: "푸르른",
+      text: [ "푸른", "푸릇한" ],
+    }, {
+      origin: "아레",
+      text: [ "아래" ],
+    }, {
+      origin: "춤추듣",
+      text: [ "춤추듯" ],
+    }
+  ],
+  count: 3,
 }
 ```
 </details>
